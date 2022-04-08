@@ -55,6 +55,26 @@ p {
 	font-size: 24px;
 }
 
+.about-section {
+	padding: 0;
+}
+.about-section h1 {
+	font-size: 55px;
+	line-height: 80px;
+	text-align: center;
+}
+
+.about-section h2 {
+	font-size: 18px;
+	font-family: var(--default-font-family);
+}
+.about-section-content {
+	margin: 30px;
+}
+.about-section-content p {
+	text-align: justify;
+}
+
 .btn-branding {
 	background: var(--branding-color);
 	border-radius: 4px;
