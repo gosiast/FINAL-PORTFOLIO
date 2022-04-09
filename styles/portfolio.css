@@ -8,6 +8,11 @@
 body {
 	font-family: var(--default-font-family);
 }
+.navbar-brand {
+	font-size: 40px;
+	font-family: Exo;
+	color: rgb(0, 0, 0);
+}
 
 h1,
 h2,
@@ -121,14 +126,14 @@ footer .contact-box {
 footer .contact-box p {
 	margin: 0;
 }
-footer .email-link {
+footer .social-media-header {
 	text-decoration: none;
 	color: black;
 	font-size: 24px;
 	text-align: center;
 }
 
-footer .email-link:hover {
+footer .social-media-header:hover {
 	color: var(--branding-color);
 }
 
