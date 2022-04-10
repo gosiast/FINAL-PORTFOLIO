@@ -126,14 +126,13 @@ footer .contact-box {
 footer .contact-box p {
 	margin: 0;
 }
-footer .social-media-header {
+footer .email-link {
 	text-decoration: none;
 	color: black;
 	font-size: 24px;
-	text-align: center;
 }
 
-footer .social-media-header:hover {
+footer .email-link:hover {
 	color: var(--branding-color);
 }
 
