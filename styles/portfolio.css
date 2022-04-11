@@ -117,10 +117,7 @@ p {
 .project-desciption {
 	padding: 120px 60px;
 }
-.courses {
-	display: flex;
-	justify-content: center;
-}
+
 footer {
 	margin: 60px 0;
 }
