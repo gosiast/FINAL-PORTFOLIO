@@ -117,7 +117,12 @@ p {
 .project-desciption {
 	padding: 120px 60px;
 }
-
+.courses {
+	background-color: var(--secondary-color);
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-around;
+}
 footer {
 	margin: 60px 0;
 }
