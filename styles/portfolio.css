@@ -7,12 +7,7 @@
 
 body {
 	font-family: var(--default-font-family);
-	background: linear-gradient(
-		90deg,
-		rgb(19, 145, 145) 0%,
-		rgb(249, 74, 153) 50%,
-		rgba(252, 176, 69, 1) 100%
-	);
+	background: linear-gradient(#e66465, #9198e5);
 }
 .navbar-brand {
 	font-size: 30px;
@@ -32,15 +27,11 @@ h6 {
 }
 
 h1 {
-	background-color: var(--secondary-color);
 	font-size: 85px;
 	line-height: 1.5;
-	border-radius: 20px;
 }
 
 h2 {
-	background-color: var(--secondary-color);
-	border-radius: 20px;
 	font-size: 64px;
 }
 h4 {
@@ -79,6 +70,7 @@ p {
 
 .content-container {
 	padding: 50px 20px;
+	background-color: white;
 }
 
 .content h1 {
