@@ -43,7 +43,6 @@ h4 {
 	font-size: 40px;
 }
 p {
-	background-color: white;
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 30px;
@@ -70,11 +69,10 @@ p {
 }
 .hero img {
 	width: 450px;
-	border-radius: 10px;
 }
 
 .content-container {
-	padding: 50px 20px;
+	padding: 40px 0px;
 	background-color: white;
 }
 
@@ -113,7 +111,8 @@ p {
 	padding: 15px 30px;
 }
 .btn-branding-outline {
-	color: var(--branding-color);
+	color: var(--secondary-color);
+	background-color: var(--branding-color);
 	border: 1px solid var(--branding-color);
 	border-radius: 4px;
 	font-size: 18px;
@@ -139,6 +138,7 @@ footer p {
 }
 
 footer .contact-box {
+	background-color: white;
 	padding: 30px 60px;
 	border-radius: 10px;
 }
