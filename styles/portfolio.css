@@ -95,13 +95,11 @@ p {
 
 .content p {
 	font-size: 20px;
-	text-align: justify;
 }
 
 .content {
 	margin: 30px;
 }
-
 .btn-branding {
 	background: var(--branding-color);
 	border-radius: 4px;
