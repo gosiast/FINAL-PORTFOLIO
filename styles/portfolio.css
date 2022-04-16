@@ -7,7 +7,12 @@
 
 body {
 	font-family: var(--default-font-family);
-	background: linear-gradient(#e66465, #9198e5);
+	background: linear-gradient(
+		188deg,
+		rgba(198, 255, 221, 1) 0%,
+		rgba(251, 215, 134, 1) 24%,
+		rgba(247, 121, 125, 1) 77%
+	);
 }
 .navbar-brand {
 	font-size: 30px;
@@ -134,7 +139,6 @@ footer p {
 }
 
 footer .contact-box {
-	background-color: var(--secondary-color);
 	padding: 30px 60px;
 	border-radius: 10px;
 }
