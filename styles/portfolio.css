@@ -36,8 +36,7 @@ h6 {
 }
 
 h1 {
-	font-size: 60px;
-	line-height: 1.5;
+	font-size: 50px;
 }
 
 h2 {
@@ -67,7 +66,6 @@ p {
 .hero h2 {
 	font-family: var(--heading-font-family);
 	font-weight: normal;
-	line-height: 1.5;
 	font-size: 24px;
 }
 .hero img {
