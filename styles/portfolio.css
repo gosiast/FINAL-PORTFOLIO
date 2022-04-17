@@ -57,7 +57,6 @@ p {
 	text-align: center;
 	padding: 50px 20px;
 }
-
 .hero p {
 	font-size: 36px;
 	font-weight: bold;
@@ -72,7 +71,7 @@ p {
 	font-size: 24px;
 }
 .hero img {
-	width: 450px;
+	width: 350px;
 }
 .content-container {
 	padding: 40px 0px;
@@ -166,7 +165,12 @@ footer .social-links a {
 	background-color: var(--secondary-color);
 	padding: 10px 15px;
 	border-radius: 50px;
-	font-size: 18px;
+	box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+		rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+		rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+		rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+		rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+	font-size: 20px;
 	transition: all 150ms ease-in-out;
 }
 footer .social-links a:hover {
