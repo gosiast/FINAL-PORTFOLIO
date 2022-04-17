@@ -74,7 +74,6 @@ p {
 .hero img {
 	width: 450px;
 }
-
 .content-container {
 	padding: 40px 0px;
 	background-color: white;
@@ -130,6 +129,10 @@ p {
 	border-radius: 10px;
 	display: flex;
 	justify-content: space-around;
+}
+.contact-photo {
+	border-radius: 20px;
+	width: 450px;
 }
 footer {
 	margin: 60px 0 30px 0;
