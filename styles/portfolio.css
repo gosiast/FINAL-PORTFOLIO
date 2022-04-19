@@ -87,7 +87,6 @@ p {
 
 .content h3 {
 	font-size: 20px;
-	line-height: 1.5;
 	font-style: italic;
 	font-family: var(--default-font-family);
 }
