@@ -49,7 +49,22 @@ p {
 	font-size: 16px;
 	line-height: 30px;
 }
-
+#banner {
+	background-image: url("/images/landingpageNYC.jpg");
+	background-size: cover;
+	background-position: bottom center;
+	height: 700px;
+	width: 100%;
+}
+#banner .content {
+	border: 3px solid white;
+	position: relative;
+	top: 200px;
+	width: 400px;
+	margin: 0 auto;
+	background-color: aliceblue;
+	border-radius: 10px;
+}
 .hero {
 	background-color: white;
 	text-align: center;
