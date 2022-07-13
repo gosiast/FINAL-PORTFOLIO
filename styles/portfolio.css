@@ -61,6 +61,12 @@ p {
 	justify-content: flex-start;
 	padding: 10px;
 }
+#banner h3 {
+	font-size: 40px;
+}
+#banner p {
+	font-size: 15px;
+}
 /*
 css - the box model lesson, try it
 
