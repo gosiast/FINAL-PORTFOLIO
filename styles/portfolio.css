@@ -164,6 +164,7 @@ css - the box model lesson, try it
 	justify-content: space-around;
 }
 .contact-photo {
+	margin-top: 5px;
 	border-radius: 20px;
 	width: 450px;
 }
