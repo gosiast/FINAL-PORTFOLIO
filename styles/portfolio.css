@@ -59,13 +59,13 @@ p {
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	padding: 10px;
+	padding: 10 20px;
 }
 #banner h3 {
-	font-size: 40px;
+	font-size: 50px;
 }
 #banner p {
-	font-size: 15px;
+	font-size: 20px;
 }
 /*
 css - the box model lesson, try it
