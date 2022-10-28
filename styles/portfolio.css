@@ -7,12 +7,10 @@
 
 body {
 	font-family: var(--default-font-family);
-	background: linear-gradient(
-		188deg,
-		rgba(198, 255, 221, 1) 0%,
-		rgba(251, 215, 134, 1) 24%,
-		rgba(247, 121, 125, 1) 77%
-	);
+}
+
+.navbar {
+		background: linear-gradient(58deg, rgba(180, 58, 123, 1) 0%, rgba(253, 121, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
 }
 .nav-link {
 	font-size: 15px;
