@@ -161,7 +161,14 @@ width: 100%;
 	background-color: var(--secondary-color);
 	border-radius: 10px;
 	display: flex;
-	justify-content: space-around;
+}
+
+ul {
+	list-style-type: circle;
+}
+
+ul h2 {
+	text-align: left;
 }
 .contact-photo {
 	margin-top: 5px;
