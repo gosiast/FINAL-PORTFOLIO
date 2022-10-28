@@ -7,6 +7,7 @@
 
 body {
 	font-family: var(--default-font-family);
+	max-width: 100%;
 }
 
 .navbar {
@@ -51,7 +52,7 @@ p {
 	background-image: url("/images/landingpageNYC.jpg");
 	background-size: cover;
 	background-position: bottom center;
-	height: 600px;
+	height: 685px;
 	width: 100%;
 	margin: 0 auto;
 	display: flex;
@@ -84,6 +85,12 @@ css - the box model lesson, try it
   margin: 0 auto;
 }
 */
+
+.card {
+display: block;
+margin: 0;
+
+}
 
 .hero {
 	background-color: white;
@@ -163,13 +170,29 @@ width: 100%;
 	display: flex;
 }
 
+.courses p {
+	font-size: 15px;
+	margin: 5px;
+}
+
 ul {
 	list-style-type: circle;
 }
 
 ul h2 {
 	text-align: left;
+	font-size: 10px;
 }
+
+ul li {
+	font-size: 18px;
+}
+
+ul a {
+	text-decoration: none;
+	font-size: 15px;
+}
+
 .contact-photo {
 	margin-top: 5px;
 	border-radius: 20px;
