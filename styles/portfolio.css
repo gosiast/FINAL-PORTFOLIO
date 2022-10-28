@@ -103,7 +103,9 @@ css - the box model lesson, try it
 	font-size: 24px;
 }
 .hero img {
-	width: 350px;
+width: 100%;
+	max-width: 700px;
+
 }
 
 .content-container {
