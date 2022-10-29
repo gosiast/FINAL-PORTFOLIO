@@ -12,9 +12,9 @@ body {
 
 .navbar {
 		background: linear-gradient(58deg, rgba(180, 58, 123, 1) 0%, rgba(253, 121, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
-}
+	}
 .nav-link {
-	font-size: 15px;
+	font-size: 20px;
 }
 .navbar-brand {
 	font-size: 25px;
@@ -110,9 +110,13 @@ margin: 0;
 	font-size: 24px;
 }
 .hero img {
-width: 100%;
+	width: 100%;
 	max-width: 700px;
 
+}
+
+.about-me-content {
+	text-align: justify;
 }
 
 .content-container {
@@ -120,7 +124,7 @@ width: 100%;
 	background-color: white;
 }
 .content h1 {
-	font-size: 55px;
+	font-size: 50px;
 	line-height: 80px;
 }
 
