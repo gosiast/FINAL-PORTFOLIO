@@ -1,6 +1,6 @@
 :root {
-	--branding-color: linear-gradient(58deg, rgba(180, 58, 123, 1) 0%, rgba(253, 121, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);;
-	--secondary-color: #f9f7fe;
+	--branding-color: linear-gradient(58deg, rgba(180, 58, 123, 1) 0%, rgb(19, 19, 127) 50%, rgba(252, 176, 69, 1) 100%);;
+	--secondary-color: #ffffff;
 	--heading-font-family: "Playfair Display", serif;
 	--default-font-family: "Poppins", sans-serif;
 }
@@ -169,7 +169,6 @@ margin: 0;
 .courses {
 	background-color: var(--secondary-color);
 	border-radius: 10px;
-	display: flex;
 }
 
 .courses p {
@@ -177,6 +176,9 @@ margin: 0;
 	margin: 5px;
 }
 
+.courses h4 {
+		text-align: center;
+}
 ul {
 	list-style-type: circle;
 }
