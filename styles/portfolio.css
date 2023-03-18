@@ -52,13 +52,12 @@ p {
 	background-image: url("/images/landingpageNYC.jpg");
 	background-size: cover;
 	background-position: bottom center;
-	height: 685px;
+	height: 600px;
 	width: 100%;
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	padding: 10 20px;
 }
 #banner h3 {
 	font-size: 50px;
@@ -199,8 +198,8 @@ ul a {
 
 .contact-photo {
 	margin-top: 5px;
-	border-radius: 20px;
-	width: 450px;
+	border-radius: 100px;
+	width: 400px;
 }
 footer {
 	margin: 60px 0 30px 0;
@@ -270,3 +269,8 @@ footer .social-links a:hover {
 		text-align: center;
 	}
 }
+
+
+/*
+https://www.w3schools.com/howto/howto_css_hero_image.asp
+*/
