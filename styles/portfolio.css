@@ -1,5 +1,5 @@
 :root {
-	--branding-color: #6c63ff;
+	--branding-color: linear-gradient(58deg, rgba(180, 58, 123, 1) 0%, rgba(253, 121, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);;
 	--secondary-color: #f9f7fe;
 	--heading-font-family: "Playfair Display", serif;
 	--default-font-family: "Poppins", sans-serif;
@@ -147,7 +147,7 @@ margin: 0;
 
 .btn-branding {
 	background: var(--branding-color);
-	border-radius: 4px;
+	border-radius: 50px;
 	color: white;
 	font-size: 18px;
 	line-height: 27px;
