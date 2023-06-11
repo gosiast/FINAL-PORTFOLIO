@@ -75,25 +75,6 @@ p {
 #banner p {
   font-size: 20px;
 }
-/*
-css - the box model lesson, try it
-
-#banner {
-  background-image: url("https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
-  background-size: cover;
-  background-position: bottom center;
-  height: 700px;
-  width: 100%;
-}
-
-#banner .content h1 {
-  border: 3px solid white;
-  position: relative;
-  top: 50px;
-  width: 400px;
-  margin: 0 auto;
-}
-*/
 
 .card {
   margin-left: 20px;
@@ -127,15 +108,15 @@ css - the box model lesson, try it
 }
 
 .about-me-content {
-  text-align: justify;
+  text-align:justify;
 }
 
 .about-me-photo {
-  margin-top: 75px;
+  margin-top: 40px;
 }
 
 .content-container {
-  padding: 40px 0px 5px 0px;
+  padding: 20px 0px 5px 0px;
   background-color: white;
 }
 .content h1 {
