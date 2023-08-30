@@ -58,8 +58,8 @@ h4 {
 }
 p {
   font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 12px;
+  line-height: 25px;
 }
 #banner {
   background-image: url("/images/landingpageNYC.jpg");
@@ -115,7 +115,8 @@ p {
 }
 
 .about-me-photo {
-  margin-top: 40px;
+  margin-top: 20px;
+  max-width: 400px;
 }
 
 .content-container {
@@ -139,7 +140,7 @@ p {
 }
 
 .content p {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .content {
@@ -202,7 +203,7 @@ footer {
 }
 
 footer p {
-  font-size: 17px;
+  font-size: 15px;
 }
 
 footer .contact-box {
@@ -252,7 +253,7 @@ footer .social-links a:hover {
 
 .strength-name {
   color: #333;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .strength-description {
