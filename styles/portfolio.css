@@ -6,7 +6,8 @@
     rgba(252, 176, 69, 1) 100%
   );
   --secondary-color: #ffffff;
-  --heading-font-family: "Playfair Display", serif;
+  --heading-font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   --default-font-family: "Poppins", sans-serif;
 }
 
@@ -24,7 +25,9 @@ body {
   );
 }
 .nav-link {
-  font-size: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: var(--heading-font-family);
 }
 .navbar-brand {
   font-size: 25px;
@@ -44,11 +47,11 @@ h6 {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 30cm;
 }
 
 h2 {
-  font-size: 55px;
+  font-size: 20px;
 }
 h4 {
   font-size: 40px;
@@ -63,7 +66,7 @@ p {
   background-size: cover;
   background-position-x: right;
   background-position-y: center;
-  height: 500px;
+  height: 600px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -108,7 +111,7 @@ p {
 }
 
 .about-me-content {
-  text-align:justify;
+  text-align: justify;
 }
 
 .about-me-photo {
@@ -186,14 +189,16 @@ ul a {
   font-size: 15px;
 }
 
-
 .top-three-qualities li:before {
   content: "✓ ";
 }
 
+a, h3.strength-name{
+  color: #f21fba;
+}
 
 footer {
-  margin: 60px 0 30px 0;
+  margin: 10px 0 30px 0;
 }
 
 footer p {
@@ -228,23 +233,40 @@ footer .social-links a {
   transition: all 150ms ease-in-out;
 }
 footer .social-links a:hover {
-  color: white;
+  color: rgb(255, 255, 255);
   background-color: var(--branding-color);
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
     rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
     rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
     rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
- 
+}
+
+#strengths {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: block;
+}
+
+.strength-name {
+  color: #333;
+  font-size: 24px;
+}
+
+.strength-description {
+  color: #000000;
+  font-size: 15px;
 }
 @media (max-width: 900px) {
   h1 {
-    font-size: 44px;
+    font-size: 40px;
     line-height: 56px;
   }
 
   h2 {
-    font-size: 44px;
+    font-size: 40px;
   }
 
   .hero {
@@ -261,12 +283,3 @@ footer .social-links a:hover {
     text-align: center;
   }
 }
-
-/*
-https://www.w3schools.com/howto/howto_css_hero_image.asp
-*/
-
-/*
-idea for navbar
-https://dev.to/kiranrajvjd/10-simple-navigation-bar-hover-animations-1980
-*/
